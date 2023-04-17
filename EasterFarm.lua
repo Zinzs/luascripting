@@ -1,4 +1,5 @@
---[[getgenv().EasterEggFarm = true -- // Enables Farm \\
+--[[ PUT THIS INTO YOUR AUTOEXEC FOLDER!!!!
+getgenv().EasterEggFarm = true -- // Enables Farm \\
 
 getgenv().Serverhop = true -- // Server hops (Use this) \\
 
