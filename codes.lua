@@ -8,4 +8,4 @@ local args = {
 [2] = "TRADING"
 }
 game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
-end
+end)
