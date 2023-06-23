@@ -1,33 +1,10 @@
 game.StarterGui:SetCore("SendNotification", {
         Title = "Zinc Hub",
-        Text = 'Redeeming dahoodtrades'
+        Text = 'Redeeming POOLPARTY'
     })
 wait(0.4)
 local args = {
 [1] = "EnterPromoCode",
-[2] = "dahoodtrades"
+[2] = "POOLPARTY"
 }
 game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
-wait(1)
-game.StarterGui:SetCore("SendNotification", {
-        Title = "Zinc Hub ",
-        Text = 'Redeeming SUMMER2023!'
-    })
-wait(0.4)
-local args = {
-[1] = "EnterPromoCode",
-[2] = "SUMMER2023!"
-}
-game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
-wait(1)
-game.StarterGui:SetCore("SendNotification", {
-        Title = "Zinc Hub ",
-        Text = 'Redeeming TRADEME!'
-    })
-wait(0.4)
-local args = {
-[1] = "EnterPromoCode",
-[2] = "TRADEME!"
-}
-game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
-
