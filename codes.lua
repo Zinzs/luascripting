@@ -19,3 +19,25 @@ local args = {
 [2] = "TRADEME!"
 }
 game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+        Title = "Zinc Hub",
+        Text = 'Redeeming !cyan'
+    })
+wait(0.4)
+local args = {
+[1] = "EnterPromoCode",
+[2] = "!cyan"
+}
+game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+        Title = "Zinc Hub",
+        Text = 'Redeeming GPO!'
+    })
+wait(0.4)
+local args = {
+[1] = "EnterPromoCode",
+[2] = "GPO"
+}
+game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
