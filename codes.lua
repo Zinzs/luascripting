@@ -1,43 +1,16 @@
-game.StarterGui:SetCore("SendNotification", {
-        Title = "Zinc Hub",
-        Text = 'Redeeming JULY2023'
-    })
-wait(0.4)
-local args = {
-[1] = "EnterPromoCode",
-[2] = "JULY2023"
+local codes = {
+    "MELONBEAR";
+    "DHSUMMER";
+    "CHALLENGES";
+    
 }
-game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+
+for i, v in codes do
 wait(1)
-game.StarterGui:SetCore("SendNotification", {
-        Title = "Zinc Hub",
-        Text = 'Redeeming MELONBEAR'
-    })
-wait(0.4)
-local args = {
-[1] = "EnterPromoCode",
-[2] = "MELONBEAR"
-}
-game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
-wait(1)
-game.StarterGui:SetCore("SendNotification", {
-        Title = "Zinc Hub",
-        Text = 'Redeeming !cyan'
-    })
-wait(0.4)
-local args = {
-[1] = "EnterPromoCode",
-[2] = "!cyan"
-}
-game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
-wait(1)
-game.StarterGui:SetCore("SendNotification", {
-        Title = "Zinc Hub",
-        Text = 'Redeeming GPO!'
-    })
-wait(0.4)
-local args = {
-[1] = "EnterPromoCode",
-[2] = "GPO"
-}
-game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+    local args = {
+        [1] = "EnterPromoCode",
+        [2] = tostring(v)
+        }
+        print(tostring(v))
+        game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+    end
