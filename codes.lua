@@ -2,6 +2,7 @@ local codes = {
     "MELONBEAR";
     "DHSUMMER";
     "CHALLENGES";
+    "HALLOWEEN2023";
     
 }
 
