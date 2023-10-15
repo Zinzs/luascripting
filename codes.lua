@@ -1,7 +1,7 @@
 local codes = {
+    "LABORDAY2023";
+    "DAUP";
     "MELONBEAR";
-    "DHSUMMER";
-    "CHALLENGES";
     "HALLOWEEN2023";
     
 }
