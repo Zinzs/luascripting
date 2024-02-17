@@ -1,14 +1,5 @@
 local codes = {
-    "SNOWMAN2023";
-    "CANDYCANE2023";
-    "REINDEER2023";
-    "DAUP";
-    "KART";
-    "IGEXCLUSIVE";
-    "BIKE";
-    "MOPED";
-    "CAR";
-    "TRADEME!"; 
+    "NEWYEAR2024";
 }
 
 for i, v in codes do
