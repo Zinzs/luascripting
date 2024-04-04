@@ -1,9 +1,10 @@
 local codes = {
-    "NEWYEAR2024";
+    "DRUMSHOTGUN";
     "TRADEME!";
     "HALLOWEEN2023"; -- how does this still work 😭
     "DAUP";
     "MELONBEAR";
+    "pumpkins2023";
 }
 
 for i, v in codes do
