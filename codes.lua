@@ -5,6 +5,7 @@ local codes = {
     "DAUP";
     "MELONBEAR";
     "pumpkins2023";
+    "APRIL2024";
 }
 
 for i, v in codes do
